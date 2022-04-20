@@ -11,7 +11,7 @@
 
 ## Running the Program
 - To run the program, it must be set in a Linux environment
-- requires gcc version of 9.3.1 or higher 
+- Requires gcc version of 9.3.1 or higher 
 
 1. To compile the program, simply use the makefile by typing:
 ```
