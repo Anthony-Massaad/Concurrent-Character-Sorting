@@ -3,7 +3,7 @@
 ## Description
 - This program is used to order an unordered list of 7 characters (letters and numbers) entered by the user
 - It uses Linux semaphores and shared memory to achieve concurrency (multiple tasks at one time) 
-- The characters are ordered based on their decimal value they represent in the Ascii Table
+- The characters are ordered based on their decimal value they represent in the [Ascii Table](https://github.com/Anthony-Massaad/Concurrent-Character-Sorting/blob/main/ASCII_Table.png)
 - The program uses 3 processes to handle concurrency and shared memory
   - Process 1 accesses and handles characters 1, 2 and 3 which the 3rd character is shared with process 2
   - Process 2 accesses and handles characters 3, 4 and 5 which the 5th character is shared with process 3
