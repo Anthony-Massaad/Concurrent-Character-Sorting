@@ -28,6 +28,8 @@ $ ./CSORT
 
 When first running the program, you'd be asked whether you'd wish to run the program in debug mode or not. Only valid responses are "y" or "n". Anything else would repeat the question until a valid response is provided. By enabling debug mode, the program will run with the additional feature of describing the sorting process in the terminal.
 
+After, Enter exactle 7 characters with no spaces. Ideally, numbers or letters only. Any more than 7 would remove the excess and take only the first 7 characters entered. 
+
 ### Test 1:
 ```
 Would you like debug mode? (y/n): n
@@ -45,9 +47,10 @@ Final results for process 2 [a b h q s t u]
 Final results for process 1 [a b h q s t u]
 ```
 
-### Program can crash if:
-- Having less than 7 characters
-- Using special characters (i.e., !@#$..etc) 
+### Program can be unpredictable if:
+- Entering less than 7 characters
+- Entering special characters (i.e., !@#$..etc). Despite it might working with special characters, it might not produce the correct results
+- Adding spaces between the entered characters
 
 ## Credits
 Author: Anthony Massaad
